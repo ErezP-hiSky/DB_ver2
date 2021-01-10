@@ -1,11 +1,19 @@
+.shapedBtns-contianer {
+  display: absolute;
+  top: 20%;
+  left: 5%;
+  min-height: 200px;
+  min-width: 200px;
+}
+
 .btn-m-container {
   display: flex;
   background-color: #bc1414;
-  width: 10%;
-  height: 20%;
-  position: absolute;
-  top: 440px;
-  left: 620px;
+  width: 140px;
+  height: 140px;
+  position:absolute;
+  top: 45%;
+  left: 46%;
   transform: rotate(45deg);
 }
 
@@ -23,11 +31,11 @@
 .btn-t-container {
   display: flex;
   background-color: #bc1414;
-  width: 10%;
-  height: 20%;
+  width: 140px;
+  height: 140px;
   position: absolute;
-  top: 440px;
-  left: 920px;
+  top: 45%;
+  left: 64%;
   transform: rotate(45deg);
 }
 
@@ -45,11 +53,11 @@
 .register-container {
   display: flex;
   background-color: black;
-  width: 10%;
-  height: 20%;
+  width: 140px;
+  height: 140px;
   position: absolute;
-  top: 300px;
-  left: 770px;
+  top: 30%;
+  left: 55%;
   transform: rotate(45deg);
 }
 
@@ -66,11 +74,11 @@
 
 .image-container {
   display: flex;
-  width: 10%;
-  height: 20%;
+  width: 140px;
+  height: 140px;
   position: absolute;
-  top: 580px;
-  left: 770px;
+  top: 60%;
+  left: 55%;
   transform: rotate(45deg);
 }
 

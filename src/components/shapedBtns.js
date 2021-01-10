@@ -8,12 +8,16 @@ import man from '../images/man1.PNG';
 function ShapedBtns() {
     
     return (
-        <div>
+        <div class="shapedBtns-contianer">
             <div class="btn-m-container">
-                <span class="linkm-text">MANAGEMENT</span>
+                <Link className="linkm-text" to="/management">
+                    MANAGEMENT
+                </Link>
             </div>
             <div class="btn-t-container">
-                <span class="linkt-text">TECHNICIANS</span>
+                <Link className="linkt-text" to="/technician">
+                    TECHNICIANS
+                </Link>
             </div>
             <div class="register-container">
                 <span class="register-text">REGISTER</span>
